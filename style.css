@@ -366,6 +366,24 @@ header a {
     }
 
     
+    @keyframes outImage {
+        to {
+            width: 120px;
+            height: 190px;
+            border-radius: 20px;
+            left: 50%;
+            top: 60%;
+        }
+    }
+    
+    @keyframes showthumbnail {
+        to {
+            width: 120px;
+            height: 190px;
+            opacity: 1;
+        }
+    }
+    
 }
 
 
